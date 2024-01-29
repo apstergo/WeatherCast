@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.onboarding.OnBoardingFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginTop="56dp"
+        android:src="@drawable/logo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="130dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:lineHeight="20sp"
+            android:focusable="true"
+            android:textColor="@color/onboardingTextColor"
+            android:text="@string/onboarding_descritoion"
+            android:scrollbars="vertical"/>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginHorizontal="16dp"
+        android:text="Продолжить"
+        android:enabled="true"
+        android:background="@drawable/bg_button"
+        android:backgroundTint="@null"
+        />
+
+
+</LinearLayout>
