@@ -3,4 +3,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="onboardingTextColor">#191919</color>
+    <color name="green">#009F06</color>
+    <color name="stroike_gray">#B4B4B4</color>
 </resources>
